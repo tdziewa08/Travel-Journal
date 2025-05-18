@@ -1,0 +1,102 @@
+body {
+  display: border-box;
+  height: auto;
+  width: 550px;
+  margin-left: 25%;
+  border: .5px solid grey;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  font-family: Inter;
+  font-size: 14.5px;
+  background-color: #F55A5A;
+  color: white;
+  margin-bottom: 36px;
+}
+
+#ball {
+  height: 24px;
+  width: 24px;
+  margin: 4px;
+  border-radius: 100%;
+}
+
+.journalEntry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 168px;
+  width: 471px;
+  margin-left: 40px;
+  margin-bottom: 18px;
+}
+
+#pin {
+  height: 9.5px;
+  width: 7px;
+  margin-right: 1px;
+  border-radius: 100%;
+  border: .5px solid red;
+}
+
+#stockPhoto {
+  height: 168px;
+  width: 125px;
+	max-width: 100%;
+	flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: .5em;
+}
+
+a {
+  font-family: Inter;
+  font-size: 10px;
+  color: #918E9B;
+  margin-left: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 19px;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 25px;
+  margin: 0;
+  padding-top: 5px;
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 10px;
+  letter-spacing: 17%;
+  margin: 0;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 10px;
+  padding-top: 7px;
+}
+
+p {
+  font-family: Inter;
+  font-size: 10px;
+  line-height: 150%;
+  margin: 0;
+}
+
+hr {
+  height: 0px;
+  width: 478px;
+  color: #F5F5F5;
+  margin-bottom: 18px;
+}
